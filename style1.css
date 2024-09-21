@@ -497,6 +497,64 @@ i:active {
         width: 70%;
         }
 
+
+        .section7 {
+            flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+            padding: 20px; /* تقليل الحواف */
+            margin: 0; /* إزالة الهامش التلقائي */
+        }
+    
+        .sec7-text {
+            padding-left: 0; /* إزالة الحافة اليسرى */
+            margin-top: 20px; /* تقليل المسافة العلوية */
+            text-align: center; /* توسيط النص */
+        }
+    
+        .sec7-img {
+            max-width: 80%; /* زيادة العرض الأقصى للصورة */
+            padding-right: 0; /* إزالة الحافة اليمنى */
+            margin: 20px 0; /* إضافة مسافة علوية وسفلية */
+        }
+    
+        #section-button {
+            height: 250px; /* تقليل ارتفاع الزر */
+        }
+    
+        .section8 h1 {
+            font-size: 1.5em; /* تغيير حجم الخط */
+        }
+    
+        .footerleft, .footerright {
+            width: 100%; /* جعل الأعمدة تأخذ عرض 100% */
+            margin-left: 0; /* إزالة الهامش الأيسر */
+            padding: 20px; /* إضافة حواف داخلية */
+            text-align: center; /* توسيط النص */
+        }
+    
+        .phone {
+            margin-left: 0; /* إزالة الهامش الأيسر */
+            flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+            align-items: center; /* توسيط العناصر */
+        }
+    
+        .hundel {
+            justify-content: center; /* توسيط العناصر */
+            margin: 10px 0; /* إضافة مسافة عمودية */
+        }
+    
+        .textbox input {
+            width: 90%; /* زيادة عرض حقل الإدخال */
+            margin: 10px 0; /* إضافة مسافة عمودية */
+        }
+    
+        .buttonfinal {
+            margin-left: 0; /* إزالة الهامش الأيسر */
+        }
+    
+        .social-icons {
+            margin-left: 0; /* إزالة الهامش الأيسر */
+            font-size: 30px; /* تغيير حجم الرموز */
+        }
         
 
 }
