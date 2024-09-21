@@ -264,122 +264,110 @@ h1 {
 }
 
 /*********************************************************/ 
- #section10  {
-    
- z-index: 1px;
- background-color:hsl(192, 100%, 9%) ;
- color: white;
- height: 700px;
- width: 100%;
-  padding-top: 40px;
- display: flex;
-   }
-
-
-.footerleft{ width: 40%;
-    height: auto;
-   
- margin-left: 100px;
- 
+ #section10 {
+    z-index: 1;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    height: 700px;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
 }
 
+.footerleft {
+    width: 40%;
+    height: auto;
+    margin-left: 100px;
+}
 
-
-.hundel{ width: 300px;
-   
-  
+.hundel {
+    width: 300px;
     display: flex;
-     gap: 10PX;
+    gap: 10px;
     margin-left: 200px;
     margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-
-
-}
-.hundel h2{ color: white;}
-
-.hundel img{
-    width: 50px;
-     height: 60px;
-    
- }
-
-
-
- .part1paraghraf p{color: white;
-    width:  fit-content;
     font-family: Arial, Helvetica, sans-serif;
-    height: 70PX;
-   text-align: left;
-     margin-left: 200px;
-  margin-top: 0px;
-   padding: 5px;
-
 }
+
+.hundel h2 {
+    color: white;
+}
+
+.hundel img {
+    width: 50px;
+    height: 60px;
+}
+
+.part1paraghraf p {
+    color: white;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 0px;
+    padding: 5px;
+}
+
 .phone {
     display: flex;
     margin-left: 200px;
 }
 
 .phone i {
-    width: 80px;  
-    margin-right: 2px;  
-    padding-top: 20px;  
+    width: 80px;
+    margin-right: 2px;
+    padding-top: 20px;
 }
 
 .phone h4 {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 i:active {
-    transform: scale(1.5);  
-    transition: transform 0.3s;  
+    transform: scale(1.5);
+    transition: transform 0.3s;
 }
+
 .button:active {
-    background-color: hsl(322, 100%, 66%);  
-    color: white; 
-    transform: scale(1.2); 
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    transform: scale(1.2);
 }
 
-.social-icons{
-
+.social-icons {
     margin-top: 90px;
-  margin-left: 200px ;
-  font-size: 40px;
-  padding: 5px;
+    margin-left: 200px;
+    font-size: 40px;
+    padding: 5px;
 }
 
-
-.textbox input{width: 300px;
+.textbox input {
+    width: 300px;
     margin-left: 200px;
     border: none;
     border-radius: 10px;
     height: 40px;
-
 }
-.buttonfinal{
 
+.buttonfinal {
     width: 150px;
-        border: none;
-        padding: 5px;
-        border-radius: 15px;
-        color: white;
-         font-style: normal;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bolder;
-        background-color: hsl(322, 100%, 66%);
-        margin-left: 100px;
-        height: 40px;
-        
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: hsl(322, 100%, 66%);
+    margin-left: 100px;
+    height: 40px;
 }
+
 .buttonfinal:active {
-     color: white; 
-    transform: scale(1.2); 
- 
+    color: white;
+    transform: scale(1.2);
 }
-
-
-
-
 
 
 
@@ -497,64 +485,52 @@ i:active {
         width: 70%;
         }
 
-
-        .section7 {
-            flex-direction: column; /* تغيير الاتجاه إلى عمودي */
-            padding: 20px; /* تقليل الحواف */
-            margin: 0; /* إزالة الهامش التلقائي */
-        }
-    
-        .sec7-text {
-            padding-left: 0; /* إزالة الحافة اليسرى */
-            margin-top: 20px; /* تقليل المسافة العلوية */
-            text-align: center; /* توسيط النص */
-        }
-    
-        .sec7-img {
-            max-width: 80%; /* زيادة العرض الأقصى للصورة */
-            padding-right: 0; /* إزالة الحافة اليمنى */
-            margin: 20px 0; /* إضافة مسافة علوية وسفلية */
-        }
-    
-        #section-button {
-            height: 250px; /* تقليل ارتفاع الزر */
-        }
-    
         .section8 h1 {
-            font-size: 1.5em; /* تغيير حجم الخط */
+            font-size: 1.5em; /* يمكنك تعديل القيمة حسب الحاجة */
+        }
+        .section9-footer {
+            background-image: url(images/bg-footer-top-mobile.svg); /* صورة مخصصة للموبايل */
+            background-size: cover; /* أو يمكنك استخدام contain حسب ما يناسبك */
+            height: 80px; /* تعديل الارتفاع حسب الحاجة */
+        }
+
+        section10 {
+            height: auto; /* جعل الارتفاع تلقائي ليتناسب */
+            flex-direction: column; /* ترتيب العناصر بشكل عمودي */
+            padding: 20px; /* تقليل الحشو */
         }
     
-        .footerleft, .footerright {
-            width: 100%; /* جعل الأعمدة تأخذ عرض 100% */
-            margin-left: 0; /* إزالة الهامش الأيسر */
-            padding: 20px; /* إضافة حواف داخلية */
-            text-align: center; /* توسيط النص */
-        }
-    
-        .phone {
-            margin-left: 0; /* إزالة الهامش الأيسر */
-            flex-direction: column; /* تغيير الاتجاه إلى عمودي */
-            align-items: center; /* توسيط العناصر */
+        .footerleft {
+            width: 100%; /* جعل العرض 100% */
+            margin-left: 0; /* إزالة الهامش */
+            text-align: left; /* محاذاة النص لليسار */
+            padding-left: 10px; /* إضافة مسافة بسيطة من اليسار */
         }
     
         .hundel {
-            justify-content: center; /* توسيط العناصر */
-            margin: 10px 0; /* إضافة مسافة عمودية */
+            width: 100%; /* جعل العرض 100% */
+            margin-left: 0; /* إزالة الهامش */
+            justify-content: flex-start; /* ترتيب العناصر لليسار */
         }
     
-        .textbox input {
-            width: 90%; /* زيادة عرض حقل الإدخال */
-            margin: 10px 0; /* إضافة مسافة عمودية */
-        }
-    
-        .buttonfinal {
-            margin-left: 0; /* إزالة الهامش الأيسر */
+        .part1paraghraf p,
+        .phone h4 {
+            margin-left: 0; /* إزالة الهامش */
+            font-size: 14px; /* تصغير الخط */
         }
     
         .social-icons {
-            margin-left: 0; /* إزالة الهامش الأيسر */
-            font-size: 30px; /* تغيير حجم الرموز */
+            margin-left: 0; /* إزالة الهامش */
+            font-size: 30px; /* تصغير الأيقونات */
         }
-        
-
+    
+        .textbox input {
+            width: 90%; /* جعل العرض 90% */
+            margin-left: 0; /* إزالة الهامش */
+        }
+    
+        .buttonfinal {
+            margin-left: 0; /* إزالة الهامش */
+        }
+    
 }
