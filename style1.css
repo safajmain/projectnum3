@@ -494,60 +494,69 @@ i:active {
         }
 
         section10 {
-            height: auto;  
-            flex-direction: column;  
-            padding: 20px;  
+            height: auto; 
+            flex-direction: column; 
+            padding: 20px; 
+            background-color: hsl(192, 100%, 9%); /* خلفية داكنة */
         }
     
         .footerleft {
-            width: 100%;  
-            margin-left: 0; 
-            text-align: left;  
-            padding-left: 10px;  
+            width: 100%; 
+            text-align: left; 
+            padding: 0 10px; /* استخدام padding لضمان البقاء داخل الخلفية */
         }
     
         .hundel {
-            width: 100%;  
-            margin-left: 0;  
-            justify-content: flex-start; 
-            font-size: 14px;  
+            width: 100%; 
+            font-size: 12px; /* تصغير حجم الخط */
+            display: flex; 
+            align-items: center; /* محاذاة الصورة والنص */
         }
     
         .hundel img {
             width: 30px; 
-            height: 40px; 
+            height: 30px; /* تصغير حجم الصورة */
+            margin-right: 5px; /* مسافة بين الصورة والنص */
         }
     
         .part1paraghraf p,
         .phone h4 {
-            margin-left: 0; 
-            font-size: 12px;  
+            margin: 0; 
+            font-size: 12px; /* تصغير الخط */
             padding: 0; 
         }
     
         .social-icons {
-            margin-left: 0; 
+            margin: 0; 
             font-size: 24px; 
             padding: 0; 
+            margin-top: 10px; /* إضافة مسافة فوق */
+        }
+    
+        .textbox {
+            width: 100%; 
+            margin-top: 20px; /* مسافة فوق النص */
+            padding: 0 10px; /* استخدام padding */
         }
     
         .textbox input {
-            width: 60%; 
-            margin-left: 0; 
-            font-size: 12px;  
+            width: 90%; 
+            margin: 0; 
+            font-size: 12px; 
+            height: 30px; /* تصغير الارتفاع */
         }
     
         .buttonfinal {
-            width: 40%; 
-            margin-left: 0; 
-            font-size: 12px;  
+            width: 90%; 
+            margin: 0; 
+            font-size: 12px; 
+            height: 30px; /* تصغير الارتفاع */
         }
     
         .footerright {
-            width: 100%;  
-            margin-top: 20px;  
-            text-align: left;  
-            padding-left: 10px;
-        }
-    
+            width: 100%; 
+            margin-top: 20px; 
+            text-align: left; 
+            padding: 0 10px; /* استخدام padding */
+        } 
 }
