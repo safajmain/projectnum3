@@ -492,13 +492,23 @@ i:active {
             background-size: cover; 
             height: 80px;  
         }
-
+        .section10 {
+            height: auto; 
+            flex-direction: column; 
+            padding: 20px; 
+            background-color: hsl(192, 100%, 9%); /* خلفية داكنة */
+        }
         .footerright {
             width: 100%; 
             text-align: left; 
             padding: 0 10px; /* استخدام padding */
             display: flex;
             flex-direction: column; /* ترتيب العناصر عمودياً */
+        }
+    
+        .social-icons {
+            margin-bottom: 20px; /* مسافة تحت الأيقونات */
+            font-size: 24px; /* حجم الأيقونات */
         }
     
         .hundel {
