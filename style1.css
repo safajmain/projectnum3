@@ -97,10 +97,13 @@ h1 {
 /*******************************************************/
 
 .section2 {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     align-items: center;
     background-color: white;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .section2 p br {
