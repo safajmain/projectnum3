@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background-image: url(logo.gpg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h1 {
+    font-weight: 800;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    width: 210px;
+     border-radius: 40px;
+    border: 1px solid;
+    color: hsl(322, 100%, 66%);
+    height:40px;
+     background-color: white;
+    border-color: hsl(322, 100%, 66%);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+/*******************************************/
+#divbig {
+    display: flex;
+    flex-direction: column;
+}
+
+/******************************************/
+.section1 {
+    background-color: white;
+    text-align: center;
+    margin-top: 110px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1 h1 {
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    color: hsl(192, 100%, 9%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1 p {
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px;
+    color: hsl(192, 100%, 9%);
+    margin-top: 15px;  
+}
+
+.button-p {
+    background-color: hsl(322, 100%, 66%);
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    width: 150px;
+    border-radius: 80px;
+    border: none;
+}
+
+.button-p:active,
+.button-p:focus {
+    transform: scale(1.2); 
+}
+
+.image1 {
+    width: 60%;
+}
+
+/*******************************************************/
+
+.section2 {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.section2 p br {
+    display: inline;
+    text-align: center;
+    color: gray;
+    margin-left: 400px;
+}
+
+.section2 img {
+    width: 100px;
+    padding: 2px;
+} 
+
+/*************************************************************/
+
+#section3 {
+    background-image: url(images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+/*****************************************************************/
+.section4 {
+    display: flex;
+    background-color: hsl(207, 100%, 98%);
+    justify-content: space-between;
+    padding: 0 20px;  
+    margin: auto;
+    color: hsl(192, 100%, 9%);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.sec4-text {
+    margin-top: 180px;
+    flex: 1;
+    
+    padding-left: 180px;  
+}
+
+.sec4-text h1 {
+    text-transform: capitalize;
+    color: hsl(192, 100%, 9%);
+   
+}
+
+.sec4-img {
+    max-width: 40%;
+    margin-top: 10px;
+    height: auto;  
+    flex: 1;
+    padding-right: 180px;  
+}
+/************************************************************/
+.section6{   display: flex;
+    background-color: hsl(207, 100%, 98%);
+ 
+    justify-content: space-between;
+ 
+     color: hsl(192, 100%, 9%);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 0 2px; 
+    margin:   0 0;
+  
+}
+
+.sec6-img{
+
+    max-width: 40%;
+    margin-top: 10px;
+    height: auto;  
+    flex: 1;
+    padding-left: 140px;  
+
+}
+.sec6-text h1{ text-transform: capitalize;
+    color: hsl(192, 100%, 9%);
+
+
+}
+.sec6-text{
+    text-transform: capitalize;
+    color: hsl(192, 100%, 9%);
+    margin-top:200px ;
+    margin-right: 140px;
+ 
+}
+
+/*********************************************************/
+#section5{   
+    
+   
+     display: flex;
+     background-image: url(images/bg-section-top-desktop-1.svg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    width: 100%;
+     
+    margin-top: 200px;
+  }
+/*************************************************************/
+
+.section7 {
+    display: flex;
+    background-color: hsl(207, 100%, 98%);
+    justify-content: space-between;
+    padding: 0 20px;  
+    margin: auto;
+    color: hsl(192, 100%, 9%);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+ }
+
+.sec7-text {
+    margin-top: 180px;
+    flex: 1;
+    
+    padding-left: 180px;  
+}
+
+.sec7-text h1 {
+    text-transform: capitalize;
+    color: hsl(192, 100%, 9%);
+   
+}
+
+.sec7-img {
+    max-width: 40%;
+    margin-top: 10px;
+    height: auto;  
+    flex: 1;
+    padding-right: 180px;  
+}
+
+
+#section-button{ 
+    background-image: url(images/bottom-mobile-1.svg);
+     background-repeat: no-repeat;
+    background-size: cover;
+     
+    height: 350px;
+    width: 100%;
+    }
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 450px) and (min-width: 375px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 80%;
+        height: auto;  
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .button {
+        width: 80%; 
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .section1 {
+        margin-top: 50px; 
+    }
+
+    .section1 h1,
+    .section1 p {
+        font-size: 1.2rem; 
+        padding: 0 10px;  
+    }
+    /**************************************************/
+
+    .section2 p br {
+        margin-left: 0; 
+    }
+
+    .section2 img {
+        width: 50px; 
+    }
+
+    /********************************************/
+    .section4 {
+        flex-direction: column; /* تنظيم العناصر عموديًا */
+        align-items: center; /* محاذاة العناصر في المنتصف */
+        padding: 20px; /* إضافة padding للتباعد */
+    }
+
+    .sec4-tex  {
+        margin-top: 20px; /* تقليل المسافة العلوية */
+        padding-left: 0; /* إزالة padding الجانبي */
+        margin-right: 0; /* إزالة المسافة اليمنى */
+        text-align: center; /* محاذاة النص في المنتصف */
+    }
+
+    .sec4-img {
+        max-width: 80%; /* تقليل العرض لتناسب الشاشة */
+        padding: 0; /* إزالة padding الجانبي */
+        margin: 0 auto; /* توسيط الصورة */
+    }
+    /***************************************************/
+    #section5,.section3{
+        height: 200px; /* تقليل الارتفاع */
+        margin-top: 100px; /* تقليل المسافة العلوية */
+        display: flex;
+        justify-content: center; /* توسيط المحتوى */
+        align-items: center; /* توسيط المحتوى عموديًا */
+    }
+
+    .section6 {
+        flex-direction: column; /* تنظيم العناصر عموديًا */
+        padding: 0 10px; /* تقليل padding */
+        margin: 0; /* إزالة أي هوامش */
+    }
+
+    .sec6-img {
+        max-width: 80%; /* تقليل عرض الصورة */
+        padding-left: 0; /* إزالة padding الجانبي */
+        margin: 0 auto; /* توسيط الصورة */
+    }
+
+    .sec6-text {
+        text-align: center; /* توسيط النص */
+        margin-top: 10px; /* تقليل المسافة العلوية */
+        margin-right: 0; /* إزالة المسافة اليمنى */
+        font-size: 16px; /* تقليل حجم الخط */
+    }
+
+    .sec6-text h1 {
+        font-size: 20px; /* تقليل حجم العنوان */
+        margin: 0; /* إزالة الهوامش */
+    }
+
+    #section-button{ 
+        background-image: url(images/bottom-mobile-1.svg);
+         background-repeat: no-repeat;
+        background-size: cover;
+         
+        height: 120px;
+        width: 70%;
+        }
+
+        
+
+}
