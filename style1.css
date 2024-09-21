@@ -307,13 +307,13 @@ h1 {
     }
 
     /********************************************/
-    .section4 {
+    .section4 , .section7{
         flex-direction: column; /* تنظيم العناصر عموديًا */
         align-items: center; /* محاذاة العناصر في المنتصف */
         padding: 20px; /* إضافة padding للتباعد */
     }
 
-    .sec4-tex  {
+    .sec4-tex ,.sec7-text {
         margin-top: 20px; /* تقليل المسافة العلوية */
         padding-left: 0; /* إزالة padding الجانبي */
         margin-right: 0; /* إزالة المسافة اليمنى */
@@ -321,7 +321,7 @@ h1 {
         margin-left: 150px;
     }
 
-    .sec4-img {
+    .sec4-img,.sec7-img {
         max-width: 80%; /* تقليل العرض لتناسب الشاشة */
         padding: 0; /* إزالة padding الجانبي */
         margin: 0 auto; /* توسيط الصورة */
