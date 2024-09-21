@@ -268,7 +268,7 @@ h1 {
     .logo {
         width: 30%;
         height: 150px;  
-        background-size: 40%;
+        background-size: 60%;
         margin-left: 14px;
         margin-top: 20px;
     }
@@ -277,7 +277,7 @@ h1 {
         width: 80%; 
         margin-right: 0;
         margin-top: 20px;
-        margin-left: 0;
+        margin-left: 5px;
     }
 
     .section1 {
