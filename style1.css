@@ -261,9 +261,9 @@ h1 {
     }
 
     .logo {
-        width: 80%;
-        height: auto;  
-        margin-left: 0;
+        width: 20%;
+        height: 150px;  
+        margin-left: 14px;
         margin-top: 20px;
     }
 
