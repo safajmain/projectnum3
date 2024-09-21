@@ -304,7 +304,8 @@ h1 {
         margin-top: 20px; /* تقليل المسافة العلوية */
         padding-left: 0; /* إزالة padding الجانبي */
         margin-right: 0; /* إزالة المسافة اليمنى */
-        text-align: center; /* محاذاة النص في المنتصف */
+         /* محاذاة النص في المنتصف */
+        margin-left: 150px;
     }
 
     .sec4-img {
