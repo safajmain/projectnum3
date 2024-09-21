@@ -496,45 +496,45 @@ i:active {
             height: auto; 
             flex-direction: column; 
             padding: 20px; 
-            background-color: hsl(192, 100%, 9%); /* خلفية داكنة */
+            background-color: hsl(192, 100%, 9%);  
         }
         .footerright {
             width: 100%; 
             text-align: left; 
-            padding: 0 10px; /* استخدام padding */
+            padding: 0 10px; 
             display: flex;
-            flex-direction: column; /* ترتيب العناصر عمودياً */
+            flex-direction: column;  
         }
     
         .social-icons {
-            margin-bottom: 20px; /* مسافة تحت الأيقونات */
-            font-size: 24px; /* حجم الأيقونات */
+            margin-bottom: 20px;  
+            font-size: 24px;  
         }
     
         .hundel {
-            margin-bottom: 10px; /* إضافة مسافة بين العناصر */
+            margin-bottom: 10px;  
         }
     
         .part1paraghraf {
-            margin-bottom: 10px; /* إضافة مسافة بين العناصر */
+            margin-bottom: 10px; 
         }
     
         .textbox {
             width: 100%; 
-            margin-top: 10px; /* إضافة مسافة فوق النص */
+            margin-top: 10px;  
         }
     
         .textbox input {
             width: 90%; 
             margin: 0; 
             font-size: 12px; 
-            height: 30px; /* تصغير الارتفاع */
+            height: 30px; 
         }
     
         .buttonfinal {
             width: 90%; 
             margin: 0; 
             font-size: 12px; 
-            height: 30px; /* تصغير الارتفاع */
+            height: 30px;  
         }
 }
