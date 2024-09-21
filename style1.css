@@ -511,26 +511,44 @@ i:active {
             width: 100%; /* جعل العرض 100% */
             margin-left: 0; /* إزالة الهامش */
             justify-content: flex-start; /* ترتيب العناصر لليسار */
+            font-size: 14px; /* تصغير حجم الخط */
+        }
+    
+        .hundel img {
+            width: 30px; /* تصغير حجم الصورة */
+            height: 40px; /* تصغير حجم الصورة */
         }
     
         .part1paraghraf p,
         .phone h4 {
             margin-left: 0; /* إزالة الهامش */
-            font-size: 14px; /* تصغير الخط */
+            font-size: 12px; /* تصغير الخط */
+            padding: 0; /* إزالة الحشو */
         }
     
         .social-icons {
             margin-left: 0; /* إزالة الهامش */
-            font-size: 30px; /* تصغير الأيقونات */
+            font-size: 24px; /* تصغير الأيقونات */
+            padding: 0; /* إزالة الحشو */
         }
     
         .textbox input {
             width: 90%; /* جعل العرض 90% */
             margin-left: 0; /* إزالة الهامش */
+            font-size: 12px; /* تصغير الخط */
         }
     
         .buttonfinal {
+            width: 90%; /* جعل العرض 90% */
             margin-left: 0; /* إزالة الهامش */
+            font-size: 12px; /* تصغير الخط */
+        }
+    
+        .footerright {
+            width: 100%; /* جعل العرض 100% */
+            margin-top: 20px; /* إضافة مسافة فوق */
+            text-align: left; /* محاذاة النص لليسار */
+            padding-left: 10px; /* إضافة مسافة بسيطة من اليسار */
         }
     
 }
