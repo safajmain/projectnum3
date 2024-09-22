@@ -376,7 +376,7 @@ margin-bottom: 40px;
     }
 
     .button {
-        width: 100px; 
+        width: 40% !important; 
         margin-right: 50%;
         margin-top: 0px;
         margin-bottom: 50px;
