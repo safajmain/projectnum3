@@ -8,7 +8,8 @@ body {
     height: 200px;
     display: flex;
     justify-content: space-between;
-}
+    flex-direction: row;
+  }
 
 .logo {
     background-image: url(logo.gpg.svg);
@@ -41,6 +42,22 @@ h1 {
     margin-top: 30px;
     margin-right: 150px;
 }
+.button-2 {
+    display: flex;
+    width: 210px;
+     border-radius: 40px;
+    border: 1px solid;
+    color: hsl(322, 100%, 66%);
+    height:40px;
+     background-color: white;
+    border-color: hsl(322, 100%, 66%);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 10px 40px;
+ }
+
 
 /*******************************************/
 #divbig {
@@ -245,12 +262,13 @@ h1 {
 
 
 #section-button{ 
-    background-image: url(images/bottom-mobile-1.svg);
+    background-image: url(bottom-mobile-1.svg);
      background-repeat: no-repeat;
     background-size: cover;
      
-    height: 350px;
+    height: 200px;
     width: 100%;
+     
     }
     /*****************************************************/
     .section8 h1{text-align: center;
@@ -340,30 +358,56 @@ color: white;}
     .header {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+         
     }
 
+    .button-2 {
+ margin: 30px auto 0;
+text-align: center;
+margin-bottom: 40px;
+ 
+         
+    }
     .logo {
-        width: 30%;
-        height: 150px;  
-        background-size: 60%;
-        margin-left: 14px;
+        width: 40%;
+        
+        margin-left:0;
         margin-top: 20px;
     }
 
     .button {
-        width: 80%; 
-        margin-right: 40px;
+        width: 40%; 
+        margin-right: 50%;
+        margin-top: 0px;
+        margin-bottom: 50px;
+       margin-left: 50%;
+
+        
+         
+    }
+    .image1{
         margin-top: 20px;
-        margin-left: 5px;
+        margin-bottom: 2px;
+        width: 100%;
+       align-items: center;
     }
 
     .section1 {
-        margin-top: 50px; 
+        margin-top:10px; 
+        width: 100%;
+    }
+    .section3{
+
+        width:100%;
+        height: 20px;
+        background-size: cover;
+        
     }
 
     .section1 h1,
     .section1 p {
-        font-size: 1.2rem; 
+        font-size: 1.1rem; 
         padding: 0 10px;  
     }
     .section8 h1{
@@ -381,29 +425,31 @@ color: white;}
 
     .section2 img {
         width: 50px; 
+        margin-top: 30px;
     }
 
     /********************************************/
     .section4 , .section7{
         flex-direction: column; 
-        align-items: center; 
-        padding: 20px;  
+       align-items: center;
+        padding: 0px;  
+        width: 100%;
     }
 
-    .sec4-tex ,.sec7-text {
-        margin-top: 20px;  
-        padding-left: 0;  
-        margin-right: 0;  
-        margin-left: 150px;
+    .sec4-tex ,.sec7-text  h1 p { text-align: center;
+       
+        
+         
     }
 
     .sec4-img,.sec7-img {
-        max-width: 80%; 
-        padding: 0;  
-        margin: 0 auto; 
+        max-width: 100%; 
+         text-align: center;
+         margin: auto;
+        
     }
     /***************************************************/
-    #section5,.section3{
+    #section5{
         height: 200px; 
         margin-top: 100px; 
         display: flex;
@@ -415,6 +461,7 @@ color: white;}
         flex-direction: column;
         padding: 0 10px; 
         margin: 0; 
+        width: 100%;
     }
 
     .sec6-img {
@@ -436,12 +483,9 @@ color: white;}
     }
 
     #section-button{ 
-        background-image: url(images/bottom-mobile-1.svg);
-         background-repeat: no-repeat;
-        background-size: cover;
-         
+          background-size: cover;
         height: 120px;
-        width: 70%;
+        width: 100%;
         }
 
         .section8 h1 {
