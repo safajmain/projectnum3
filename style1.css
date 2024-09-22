@@ -20,6 +20,7 @@ body {
     margin-left: 100px;
 }
 
+
 h1 {
     font-weight: 800;
     font-style: normal;
@@ -267,113 +268,69 @@ h1 {
 }
 
 /*********************************************************/ 
- #section10 {
-    z-index: 1;
+#footer {
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;  
+    background-color: #f8f8f8; 
     background-color: hsl(192, 100%, 9%);
+}
+
+.NEWSLETTER-section {
     color: white;
-    height: 700px;
-    width: 100%;
-    padding-top: 40px;
-    display: flex;
-}
-
-.footerleft {
-    width: 40%;
-    height: auto;
-    margin-left: 100px;
-}
-
-.hundel {
-    width: 300px;
-    display: flex;
-    gap: 10px;
-    margin-left: 200px;
-    margin-top: 10px;
+    flex: 1; 
+    margin-right: 20px; 
     font-family: Arial, Helvetica, sans-serif;
 }
+.NEWSLETTER-section p{font-size: 15px;
+color: white;}
 
-.hundel h2 {
+.NEWSLETTER-section input{
+    width:180px;
+    height: 20px;
+    border: none;
+    border-radius: 6px;
+    
+    }
+    .btn{ width: 100px;
+        height: 20px;
+        border-radius: 4px;
+        background-color: hsl(322, 100%, 66%);
+        color: white;
+        border: none;
+
+
+    }
+
+.hundel-section {
+    flex: 1;  
+    text-align: left; 
     color: white;
-}
-
-.hundel img {
-    width: 50px;
-    height: 60px;
-}
-
-.part1paraghraf p {
-    color: white;
-    width: fit-content;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 70px;
-    text-align: left;
-    margin-left: 200px;
-    margin-top: 0px;
-    padding: 5px;
 }
 
 .phone {
-    display: flex;
-    margin-left: 200px;
-}
-
-.phone i {
-    width: 80px;
-    margin-right: 2px;
-    padding-top: 20px;
-}
-
-.phone h4 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-i:active {
-    transform: scale(1.5);
-    transition: transform 0.3s;
-}
-
-.button:active {
-    background-color: hsl(322, 100%, 66%);
+    display: flex;  
+    align-items: center; 
+    gap: 10px;  
     color: white;
-    transform: scale(1.2);
+}
+
+.phone p {
+    margin: 0;  
+      color: white;
 }
 
 .social-icons {
-    margin-top: 90px;
-    margin-left: 200px;
-    font-size: 40px;
-    padding: 5px;
-}
-
-.textbox input {
-    width: 300px;
-    margin-left: 200px;
-    border: none;
-    border-radius: 10px;
-    height: 40px;
-}
-
-.buttonfinal {
-    width: 150px;
-    border: none;
-    padding: 5px;
-    border-radius: 15px;
+    display: flex; 
+    flex-direction: row; 
+    gap: 5px; 
+    margin-top: 14px;
     color: white;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    background-color: hsl(322, 100%, 66%);
-    margin-left: 100px;
-    height: 40px;
 }
 
-.buttonfinal:active {
-    color: white;
-    transform: scale(1.2);
+.social-icons i {
+    font-size: 24px; 
 }
-
-
-
 
 
 
@@ -495,49 +452,14 @@ i:active {
             background-size: cover; 
             height: 80px;  
         }
-        .section10 {
-            height: auto; 
-            flex-direction: column; 
-            padding: 20px; 
-            background-color: hsl(192, 100%, 9%);  
+        #footer {
+            flex-direction: column;
         }
-        .footerright {
-            width: 100%; 
-            text-align: left; 
-            padding: 0 10px; 
-            display: flex;
-            flex-direction: column;  
-        }
-    
-        .social-icons {
+        
+        .NEWSLETTER-section, .hundel-section {
+            margin-right: 0;  
             margin-bottom: 20px;  
-            font-size: 24px;  
         }
     
-        .hundel {
-            margin-bottom: 10px;  
-        }
-    
-        .part1paraghraf {
-            margin-bottom: 10px; 
-        }
-    
-        .textbox {
-            width: 100%; 
-            margin-top: 10px;  
-        }
-    
-        .textbox input {
-            width: 90%; 
-            margin: 0; 
-            font-size: 12px; 
-            height: 30px; 
-        }
-    
-        .buttonfinal {
-            width: 90%; 
-            margin: 0; 
-            font-size: 12px; 
-            height: 30px;  
-        }
+        
 }
